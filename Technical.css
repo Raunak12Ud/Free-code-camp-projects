@@ -1,0 +1,45 @@
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+#navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #575757;
+}
+
+
+.main-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .main-section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+}
